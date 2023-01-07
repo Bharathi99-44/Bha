@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3</title>
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+        form{
+            position: relative;
+            left: 100px;
+            color: ghostwhite;
+        }
+        button{
+            border: 3px solid white ;
+            border-radius: 10px;
+            background-color: lightskyblue;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: white;
+        }
+        input{
+            padding: 10px;
+            margin: 10px;
+        }
+        #here{
+            padding: 10px;
+        }
+        #rare{
+            position: relative;
+            left: 100px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        
+            <h1>Contact form</h1>
+            <h5>Please fill in your information and we'll be sending your order in no time</h5>
+                <table>
+                    <tr>
+                        <td>Your Name</td>
+                        <td> <input type="text" placeholder="First Name"> </td>
+                        <td><input type="text" placeholder="Last Name" ></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Your Email</td>
+                        <td colspan="3"> <textarea name="" id="" cols="80" rows="1"<input type="text" placeholder="e.g.hello@contactnet"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td>Phone*</td>
+                        <td> <input type="text" placeholder="###"> </td>
+                        <td><input type="text" placeholder="###"></td>
+                        <td><input type="text" placeholder="###"></td>
+                    </tr>
+                    <tr>
+                        <td>Message Subject*</td>
+                    <td colspan="3">
+                    <select name="" id="rare">
+                        <option value="Other"> <textarea name="" id="" cols="50" rows="1"> Other</textarea></option>
+                    </select>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Message*</td>
+                        <td colspan="3"> <textarea name="" id="" cols="80" rows="7"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td >Verification*</td>
+                        <td colspan="3" id="here"> <textarea name="" id="" cols="50" rows="3" >I'm not a robot </textarea></td>
+                    </tr>
+                </table>
+            <div>
+                <button>SUBMIT FORM</button> 
+            </div>
+        
+    </form>
+</body>
+</html>

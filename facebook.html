@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background: rgb(106, 78, 230);
+            padding: 33px;
+            color: ghostwhite;
+            font-size: 50px;
+        }
+        form{
+            position: relative;
+            top:0px;
+            padding: 5px;
+            margin: 5px;
+        }
+        #aside{
+            font-size: medium;
+            float: right;
+            background: rgb(106, 78, 230);
+            color: ghostwhite;
+        }
+        #forget{
+            color:dodgerblue;
+        }
+        button{
+            background-color:dodgerblue ;
+            color: ghostwhite;
+        }
+        #free{
+            float:right;
+            height: 100vh;
+        }
+        legend{
+            font-size:xx-large;
+        }
+        #create{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: darkgreen;
+            color: ghostwhite;
+            padding: 5px 20px 5px 20px;
+            font-size:20px;
+        }
+        #connect{
+            float: left;
+            height: 100vh;
+        }
+        i{
+            padding:30px;
+        }
+        .bold{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        facebook 
+    <aside id="aside">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>Email or Phone</td>
+                        <td>Password</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="text" placeholder=" "> </td>
+                        <td> <input type="text" placeholder=" "></td>
+                        <td><button>Login</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="forget">Forget Account?</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </aside>
+    </header>
+    <aside id="connect">
+    <h1>Connect with friends and the <br> world around you on Facebook.</h1>
+    <section>
+        <article class="one">
+            <i class="fas fa-photo-video"></i> <b class="bold"> See photos and updates </b>  from friends in News Feed.
+        </article>
+    </section>
+        <section>
+            <article class="one">
+                <i class="fas fa-share-alt"></i> <b class="bold" > Share what's new </b>  in your life on your Timeline.
+            </article>
+        </section>
+        <section>
+            <article class="one">
+                <i class="far fa-caret-square-down"></i> <b class="bold"> Find more </b>   of what you're looking for with Facebook Search.
+            </article>
+        </section>
+    </aside>
+    <aside >
+        <form action="" id="free">
+            <legend >Sign UP</legend>
+            It's free and always will be.
+            <table cellspacing="4px" cellpadding="8px">
+                <tr>
+                    <td colspan="2">
+                        <input type="text" placeholder="First name">  </td>
+                    
+                    <td colspan="2">
+                        <input type="text" placeholder="Last name">  </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" placeholder="Mobile number or email">  </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" placeholder="New Password">  </td>
+        
+                </tr>
+                <tr>
+                    <td>Birthday</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="" id="">
+                            <option value="">
+                                Jan
+                            </option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">
+                                9
+                            </option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">
+                                1993
+                            </option>
+                        </select>
+                    </td>
+                    <td>
+                        Why do I need to provide my <br>birthday?
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="gender">Female
+                    </td>
+                    
+                    <td colspan="2">
+                        <input type="radio" name="gender">Male
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                         <p>
+                            By clicking Create Account,you agree to our Terms <br> and that you have read our Data Policy, including <br>our Cookie Use.You may receive SMS Notifications <br> from Facebook,and can opt out at any time.
+
+                         </p>
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td colspan="4" > 
+                        <button id="create">Create Account</button> 
+                    </td>
+        
+                </tr>
+                <tr>
+                    <td colspan="4">Create a Page for a celebrity,band or business.</td>
+                  
+                </tr>
+            </table>
+        </form>
+    </aside>
+</body>
+</html>
